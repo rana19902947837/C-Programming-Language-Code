@@ -11,6 +11,8 @@
 //  Console.WriteLine(d);
 //  Console.WriteLine(e);
 //  Console.WriteLine(f);
+
+// Types Casting Examples in the C# Programming Language : 
 //  There are two types of type casting ---
 //  No1 Implicit casting 
 //  char to int to long to float to double
@@ -29,8 +31,8 @@
 //  double y = (double) 10.2;
 //  Console.WriteLine(x);
 //  Console.WriteLine(y);
-// Asking user Input In the C# Programming Language on the Lower 👇area:
 
+// Asking user Input In the C# Programming Language on the Lower 👇area:
 //  Console.WriteLine("Enter your name");
 //  string name = Console.ReadLine();
 //  Console.WriteLine("Hey Welcome" + name);
@@ -51,7 +53,7 @@
  //  Console.WriteLine();
 
  /*
-  Different Opretors in The C# Programming Language :
+  Different Opretors Examples in The C# Programming Language :
 No1  Arthematic Operator :
 No2  Assignment Operator :
 No3  Logical   Operator  :
