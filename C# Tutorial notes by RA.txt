@@ -121,3 +121,20 @@ do{
 Console.WriteLine(i);
 i++;
 }while (i > 5);
+
+// Functions or Methods in the C# Programming Language :
+static void caller(string name)
+{
+Console.WriteLine("WELCOME" + name);
+}
+// void main()
+// Function is always Create on the bottom area of Class :
+// {
+caller("Haris Ali Khan Sir");
+caller("Khizar Sir");
+caller("Imran Ali Dina Sir");
+caller("CodeWithHarry Sir");
+caller("Sir shazad sair");
+caller("Sir Atif Aslam");
+caller("And , I am student and all of them my Instructers");
+// }
