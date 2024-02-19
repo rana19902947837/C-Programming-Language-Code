@@ -39,9 +39,6 @@
 //  Console.WriteLine("How many candies do you want?");
 //  string can = Console.ReadLine();
 //  Console.WriteLine("You will get 4 more candies" + (Convert.ToInt32(can) + 4));
-
-//    Console.ReadLine(");
-
  //  Console.WriteLine("Hi Rana ");
  //  Console.WriteLine("Enter your name ");
  //  string name = Console.ReadLine();   
@@ -94,7 +91,33 @@ break;
 case 22:
 Console.WriteLine("You are really 22 years");
 break;
+case 24:
+Console.WriteLine("You are really 22 years or maybe you're doing prank");
+break;
 default:
 Console.WriteLine("Sit back , relax and joy the show");
 break;
 }
+
+// Better Alternative Loops in the C# // Programming Language :
+// For Loop in the C# :
+
+for (int i = 0; i < 5; i++)
+{
+Console.WriteLine(i);
+}
+// While Loop example in the C# :
+
+int i = 0;
+while (i < 5)
+{
+Console.WriteLine(i);
+i++;
+}
+// Do-While Loop in the C# :
+
+int i = 0;
+do{
+Console.WriteLine(i);
+i++;
+}while (i > 5);
