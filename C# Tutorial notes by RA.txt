@@ -73,7 +73,6 @@ Console.WriteLine("The value of a % b is :" + (a % b));  */
  //  Console.WriteLine(a - b);
  //  Console.WriteLine(a * b);
  //  Console.WriteLine(a / b);
- //  Console.WriteLine(a % b);
 
 // Switch & Case Statement in the C# Programming Language :
 int age = 25;
@@ -138,3 +137,54 @@ caller("Sir shazad sair");
 caller("Sir Atif Aslam");
 caller("And , I am student and all of them my Instructers");
 // }
+
+// Math Functions in the C# :
+
+int a = Math.Max(20 , 40);
+int b = Math.Min(12 , 24);
+double c = Math.Sqrt(144);
+Console.WriteLine(a);
+Console.WriteLine(b);
+Console.WriteLine(c);
+
+// String Functions in the C# :
+
+string a = "String is amazing Data Type for everybody who wants to learn Programming";
+Console.WriteLine(a.ToUpper());
+Console.WriteLine(a.ToLower());
+Console.WriteLine(a.IndexOf("Programming"));
+Console.WriteLine(a[0]);
+Console.WriteLine(a.Substring(1));
+
+//Else_If Statement in the C# :
+
+Console.WriteLine("Enter your name");
+string name = Console.ReadLine();
+Console.WriteLine("Welcome ~ " + name);
+Console.WriteLine("Enter your age");
+string agestr = Console.ReadLine();
+int age = Convert.ToInt32(agestr);
+if (age < 2)
+{
+Console.WriteLine("You are just born");
+}
+else if (age < 10)
+{
+Console.WriteLine("Please first of all , finish your high school");
+}
+else if (age < 20)
+{
+Console.WriteLine("You are below 20");
+}
+else if (age < 25)
+{
+Console.WriteLine("You are eligible for this post sir");
+}
+else if (age < 70)
+{
+Console.WriteLine("You are an old and cannot eligible for this post");
+}
+else
+{
+Console.WriteLine("Sit back , Relax and Joy the show");
+}
