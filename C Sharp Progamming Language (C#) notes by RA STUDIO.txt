@@ -188,3 +188,13 @@ else
 {
 Console.WriteLine("Sit back , Relax and Joy the show");
 }
+
+
+// This Function is called a String Inter-Polition in the C# Programming Language :
+
+Console.WriteLine("Enter your name ~ ");
+string n = Console.ReadLine(); 
+Console.WriteLine($"Your name is {n}.");
+Console.WriteLine("Enter your age ~ ");
+string a = Console.ReadLine();
+Console.WriteLine($"You are {a}. years old");
