@@ -127,7 +127,7 @@ static void caller(string name)
 Console.WriteLine("WELCOME" + name);
 }
 // void main()
-// Function is always Create on the bottom area of Class :
+// Function is always Create on the top area of Class :
 // {
 caller("Haris Ali Khan Sir");
 caller("Khizar Sir");
@@ -135,7 +135,7 @@ caller("Imran Ali Dina Sir");
 caller("CodeWithHarry Sir");
 caller("Sir shazad sair");
 caller("Sir Atif Aslam");
-caller("And , I am student and all of them my Instructers");
+caller("And , I am student and all of them are my Instructers");
 // }
 
 // Math Functions in the C# :
@@ -152,6 +152,7 @@ Console.WriteLine(c);
 string a = "String is amazing Data Type for everybody who wants to learn Programming";
 Console.WriteLine(a.ToUpper());
 Console.WriteLine(a.ToLower());
+Console.WriteLine(a.Length);
 Console.WriteLine(a.IndexOf("Programming"));
 Console.WriteLine(a[0]);
 Console.WriteLine(a.Substring(1));
@@ -190,7 +191,7 @@ Console.WriteLine("Sit back , Relax and Joy the show");
 }
 
 
-// This Function is called a String Inter-Polition in the C# Programming Language :
+// This Function is called a String Interpolation in the C# Programming Language :
 
 Console.WriteLine("Enter your name ~ ");
 string n = Console.ReadLine(); 
